@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="TopTenApp.Views.CommentsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TopTenApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding CommentsViewModel, Source={StaticResource Locator}}"
+    >
+
+    <Grid 
+        Name="Container"
+        Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        
+        <TextBlock>I am comments page</TextBlock>
+        <Border
+                Grid.Column="0"
+                Grid.Row="0"
+                >
+            <Button
+                    Content="Back"
+                    Command="{Binding BackCommand}"
+                    >
+            </Button>
+        </Border>
+        <Border
+                Grid.Column="1">
+            <local:UserControlNavigationView/>
+        </Border>
+    </Grid>
+</Page>

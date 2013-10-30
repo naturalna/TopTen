@@ -1,0 +1,190 @@
+﻿<common:LayoutAwarePage
+    x:Class="TopTenApp.Views.ArticlePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TopTenApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ArticleViewModel, Source={StaticResource Locator}}"
+      xmlns:common="using:TopTenApp.Common">
+    <Page.Resources>
+        <Style x:Key="PicturesAppBarButtonStyle" TargetType="ButtonBase" 
+           BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="PicturesAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Pictures"/>
+            <Setter Property="Content" Value="#xe113;"/>
+        </Style>
+        <Style x:Key="CropAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="CropAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Crop"/>
+            <Setter Property="Content" Value="&#xe113;"/>
+        </Style>
+        <Style x:Key="favoriteAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="CropAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Crop"/>
+            <Setter Property="Content" Value="&#x25F0;"/>
+        </Style>
+    </Page.Resources>
+    
+    <Grid
+        Name="Container"
+        Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid
+           >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+                <RowDefinition Height="120"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Canvas x:Name="PrintContainer" Opacity="0"/>
+            <Border
+            Grid.Column="1"
+            Grid.Row="0">
+                <TextBlock
+            Margin="0 20 0 0"
+            Text="Десетте най"
+            FontWeight="Light"
+            FontSize="42"></TextBlock>
+            </Border>
+            <Border
+                Margin="20 0 0 0"
+                Grid.Column="0"
+                Grid.Row="0"
+                >
+                <Button
+                    Content="Назад"
+                    Command="{Binding BackCommand}"
+                    >
+                </Button>
+            </Border>
+            <Border
+                HorizontalAlignment="Left"
+                Grid.Column="1"
+                Grid.Row="1">
+                <local:UserControlNavigationView/>
+            </Border>
+            <ScrollViewer
+                Grid.Column="1"
+                Grid.Row="2"
+                Margin="20 20 0 0 "
+               
+                >
+                <ScrollViewer.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/background2.jpg"
+                                Stretch="UniformToFill" />
+                </ScrollViewer.Background>
+                <Border 
+                    DataContext="{Binding Article}">
+                <StackPanel>
+                       
+                        <Border
+                            Background="Black"
+                            Opacity="0.5">
+                            <TextBlock
+                                    Height="60"
+                                    FontSize="20"
+                                    FontWeight="Normal"
+                                    TextAlignment="Center"
+                                    Text="{Binding Title}"></TextBlock>
+                        </Border>
+                        <Grid Margin="0 0 0 10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="350"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Border
+                                Grid.Column="0"
+                                HorizontalAlignment="Left">
+                            <Image                                 
+                                   Source="{Binding Image}"
+                                   Width="400"
+                                   Height="400"
+                                   Stretch="Fill"></Image>
+                            </Border>
+                            <Border
+                                    HorizontalAlignment="Left"
+                                    Grid.Column="1"
+                                    Background="Black"
+                                    Opacity="0.5">
+                                <TextBlock
+                                      FontSize="18"
+                                      Height="350"
+                                      Width="780"
+                                      TextWrapping="Wrap"
+                                      Padding="40 0 40 0"
+                                      Text="{Binding Content}"></TextBlock>
+                            </Border>
+                        </Grid>
+                    <Border
+                       >
+                    <ItemsControl
+                        ItemsSource="{Binding Ranglist}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                    <Grid Margin="0 0 0 10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="200"/>
+                                                <ColumnDefinition/>
+                                            </Grid.ColumnDefinitions>
+                                            <Border
+                                                Background="Black"
+                                                Opacity="0.5"
+                                                Grid.Column="1">
+                                                <TextBlock 
+                                                    Padding="15"
+                                                    TextWrapping="Wrap"
+                                                    FontSize="18"
+                                                    Height="auto"
+                                            Text="{Binding Palce}"></TextBlock>
+                                            </Border>
+                                            <Image
+                                                Grid.Column="0"
+                                                Margin="10 0 10 0"
+                                                Stretch="Fill"
+                                            Source="{Binding Image}"
+                                            Width="200"
+                                            Height="200"></Image>
+                                        </Grid>
+                                </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    </Border>
+                </StackPanel>
+            </Border>
+            </ScrollViewer>
+            <!--<Button
+            Content="Show Comments"
+            Command="{Binding ShowComments}"
+            Width="120"
+            Height="50"
+                Grid.Column="0"
+                Grid.Row="1"
+                Margin="100">
+            </Button>-->          
+        </Grid>
+        <AppBar
+                VerticalAlignment="Bottom">
+            <StackPanel HorizontalAlignment="Left"
+                        Orientation="Horizontal">
+                <Button
+                Style="{StaticResource CropAppBarButtonStyle}"
+                AutomationProperties.Name="Добави в любими"
+                Command="{Binding AddToFavorite}" />
+                <Button
+                Style="{StaticResource  favoriteAppBarButtonStyle}"
+                AutomationProperties.Name="Запиши статията като файл"
+                Command="{Binding SaveRanglist}" />
+            </StackPanel>
+        </AppBar>   
+    </Grid>
+</common:LayoutAwarePage>

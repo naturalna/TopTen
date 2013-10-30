@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC</Machine>
+    <WindowsUser>Anna</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8E36E18A8FF211B7131FF9273278800B0C51594CECBB98F576F6B6649EF89176</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>40345boyan.palagachev.TopTenAll_1.0.0.5_neutral__vtej7y3rwy3h0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>40345boyan.palagachev.TopTenAll_vtej7y3rwy3h0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>40345boyan.palagachev.TopTenAll</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=421F176B-343F-446F-8865-C6364287856F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.5</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-15T20:29:36.964</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\TopTenApp.exe">
+      <PackagePath>TopTenApp.exe</PackagePath>
+      <Modified>2013-10-17T19:44:46.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\TopTenApp.pdb">
+      <PackagePath>TopTenApp.pdb</PackagePath>
+      <Modified>2013-10-17T19:44:46.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\Facebook.6.4.2\lib\win8\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+      <Modified>2013-09-28T22:04:32.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2013-09-28T20:44:26.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2013-09-28T20:44:26.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2013-09-28T20:44:26.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2013-09-29T23:28:56.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\parse.1.2.8\lib\netcore45\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+      <Modified>2013-09-28T15:29:29.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\parse.1.2.8\lib\netcore45\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+      <Modified>2013-09-28T15:29:29.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.pdb</PackagePath>
+      <Modified>2013-09-28T20:44:26.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\GalaSoft.MvvmLight.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Win8.pdb</PackagePath>
+      <Modified>2013-09-28T20:44:26.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\Microsoft.Practices.ServiceLocation.pdb">
+      <PackagePath>Microsoft.Practices.ServiceLocation.pdb</PackagePath>
+      <Modified>2013-09-28T20:44:26.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+      <Modified>2013-10-03T14:08:26.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\background2.jpg">
+      <PackagePath>Assets\background2.jpg</PackagePath>
+      <Modified>2013-10-03T14:13:28.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\top10.jpg">
+      <PackagePath>Assets\top10.jpg</PackagePath>
+      <Modified>2013-10-05T08:52:05.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\ColorPicker\ColorSwatchCircle.png">
+      <PackagePath>Assets\ColorPicker\ColorSwatchCircle.png</PackagePath>
+      <Modified>2013-09-30T23:38:44.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\ColorPicker\ColorSwatchSquare1.png">
+      <PackagePath>Assets\ColorPicker\ColorSwatchSquare1.png</PackagePath>
+      <Modified>2013-09-30T23:38:44.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\ColorPicker\ColorSwatchSquare2.png">
+      <PackagePath>Assets\ColorPicker\ColorSwatchSquare2.png</PackagePath>
+      <Modified>2013-09-30T23:38:44.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\ohio_top_10.scale-180.png">
+      <PackagePath>Assets\ohio_top_10.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-05T10:57:16.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-03-15T17:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-05T09:10:30.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\Test.png">
+      <PackagePath>Assets\Test.png</PackagePath>
+      <Modified>2013-10-03T14:36:47.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\top10Small.png">
+      <PackagePath>Assets\top10Small.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-05T08:57:31.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Assets\top10Small30.png">
+      <PackagePath>Assets\top10Small30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-05T09:09:32.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-09-28T18:30:19.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-30T19:20:51.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T13:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\ArticlePage.xaml">
+      <PackagePath>Views\ArticlePage.xaml</PackagePath>
+      <Modified>2013-10-15T13:24:27.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\ArticlesByGroupPage.xaml">
+      <PackagePath>Views\ArticlesByGroupPage.xaml</PackagePath>
+      <Modified>2013-10-15T13:17:27.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\CommentsPage.xaml">
+      <PackagePath>Views\CommentsPage.xaml</PackagePath>
+      <Modified>2013-10-01T09:39:50.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\ContinuesPage.xaml">
+      <PackagePath>Views\ContinuesPage.xaml</PackagePath>
+      <Modified>2013-10-03T20:56:53.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\FavoriteSelectionView.xaml">
+      <PackagePath>Views\FavoriteSelectionView.xaml</PackagePath>
+      <Modified>2013-10-04T14:56:43.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\GroupsPage.xaml">
+      <PackagePath>Views\GroupsPage.xaml</PackagePath>
+      <Modified>2013-10-15T13:11:07.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\LoginPage.xaml">
+      <PackagePath>Views\LoginPage.xaml</PackagePath>
+      <Modified>2013-10-17T18:52:58.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\PageForPrinting.xaml">
+      <PackagePath>Views\PageForPrinting.xaml</PackagePath>
+      <Modified>2013-10-03T21:55:03.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\RegisterPage.xaml">
+      <PackagePath>Views\RegisterPage.xaml</PackagePath>
+      <Modified>2013-10-17T18:57:47.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\SearchResultPage.xaml">
+      <PackagePath>Views\SearchResultPage.xaml</PackagePath>
+      <Modified>2013-10-17T19:42:06.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\SearchResultsPage.xaml">
+      <PackagePath>Views\SearchResultsPage.xaml</PackagePath>
+      <Modified>2013-10-08T13:50:28.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\SettingsPage.xaml">
+      <PackagePath>Views\SettingsPage.xaml</PackagePath>
+      <Modified>2013-10-15T19:55:36.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\SnapPage.xaml">
+      <PackagePath>Views\SnapPage.xaml</PackagePath>
+      <Modified>2013-10-15T20:07:48.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\Views\UserControlNavigationView.xaml">
+      <PackagePath>Views\UserControlNavigationView.xaml</PackagePath>
+      <Modified>2013-10-15T13:12:39.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\XamlAndWin8\XamlWin8Project\TopTenApp\TopTenApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-10-15T20:29:36.622</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

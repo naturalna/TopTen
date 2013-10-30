@@ -1,0 +1,3 @@
+http://www.youtube.com/watch?v=OQP7lePVaRI
+
+//Има и share от ArticlePage, ама както си вървеше спря и тръгна чак след рестарт.
